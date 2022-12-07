@@ -1,0 +1,27 @@
+.feature {
+    position: relative;
+    background-color: #4d6f8a;
+
+    /* TODO: feature paragraphs don't render right color */
+    color: #f9f9f9;
+}
+
+.feature>* {
+    /* TODO: feature content margins not working vertically */
+    /* maybe try this: https://joyofcode.xyz/simple-css-debug-trick */
+    margin: 16px;
+
+    /* TODO: apply an inset style to feature text */
+    /* text-shadow: 1px -1px 1px yellow; */
+
+    font-size: 1.4em;
+    font-family: serif;
+
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+
+    transform: translate(0);
+    position: relative;
+}

@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: inherit;
+}
+
+main p {
+    color: #333;
+}
+
+header, footer {
+    padding: 0 !important;
+}
